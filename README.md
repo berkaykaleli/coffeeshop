@@ -9,7 +9,6 @@ After reading and analyzing the case spec, I focused on getting all the essentia
 React - JS library<br>
 React DOM<br>
 React Hooks<br>
-Flexbox<br>
 CSS Grid
 
 ## Live demo

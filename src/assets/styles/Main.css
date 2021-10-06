@@ -75,7 +75,7 @@ button.active {
   padding: 10px;
   height: 100%;
   position: sticky;
-  top: 0;
+  top: 30px;
 }
 
 .filter-elements {
@@ -86,7 +86,7 @@ button.active {
 .coffees-wrapper {
   float: left;
   width: 80%;
-  padding: 10px 40px;
+  padding: 20px 40px;
   border-left: 1px solid #ccc;
 }
 
@@ -125,5 +125,6 @@ instead of next to each other */
   .search-wrapper {
     border-bottom: 1px solid #ccc;
     position: relative;
+    top: 10px;
   }
 }

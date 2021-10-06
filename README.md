@@ -2,7 +2,7 @@
 
 ## My process
 
-After reading and analyzing the case spec, I focused on getting all the essentials working, like parsing the JSON data, useState, useEffect and hooks.
+After reading and analyzing the case spec, I focused on getting all the essentials working, like parsing the JSON data, filtering and mapping, useState, useEffect and hooks.
 
 ## Built with
 

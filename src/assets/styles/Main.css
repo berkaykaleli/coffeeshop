@@ -1,6 +1,6 @@
 @font-face {
   font-family: "exo-bold";
-  src: local("exo-bold"), url(fonts/exo-bold.woff2) format("woff2");
+  src: local("exo-bold"), url(../fonts/exo-bold.woff2) format("woff2");
 }
 @font-face {
   font-family: "roboto-regular";
@@ -28,6 +28,7 @@ a.categories {
   display: block;
   line-height: 24px;
   text-transform: capitalize;
+  color: #000;
 }
 .mt-20 {
   margin-top: 20px;

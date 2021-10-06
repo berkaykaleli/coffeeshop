@@ -46,7 +46,7 @@ function App() {
   if (error) {
     return <>{error.message}</>;
   } else if (!isLoaded) {
-    return <>loading...</>;
+    return <>Loading...</>;
   } else {
     return (
       <div className="wrapper">
@@ -102,8 +102,8 @@ function App() {
           </div>
           <div className="coffees-wrapper">
             {search(items).map((item) => (
-              <div className="coffee-item">
-                <article className="card" key={item.id}>
+              <div className="coffee-item" key={item.id}>
+                <article className="card">
                   <div className="card-content">
                     <h2 className="card-name">{item.title}</h2>
                     <p>{item.description}</p>

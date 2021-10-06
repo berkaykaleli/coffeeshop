@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "exo-bold";
+  src: local("exo-bold"), url(fonts/exo-bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "roboto-regular";
+  src: local("roboto-regular"),
+    url(../fonts/roboto-regular.woff2) format("woff2");
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a.categories:first-child {
+  margin-top: 10px;
+}
+a.categories {
+  display: block;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+/* Form controls */
+.form-control {
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.search-wrapper button {
+  border: none;
+  background-color: transparent;
+  text-transform: capitalize;
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-weight: 500;
+  cursor: pointer;
+  line-height: 18px;
+}
+button.active {
+  color: cornflowerblue;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/* FilterableCoffeeColumn */
+.search-wrapper {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 100%;
+  position: sticky;
+  top: 0;
+}
+
+.filter-elements {
+  position: sticky;
+}
+
+/* Coffees Column */
+.coffees-wrapper {
+  float: left;
+  width: 80%;
+  padding: 10px 40px;
+  border-left: 1px solid #ccc;
+}
+
+.coffee-item:not(:first-child) {
+  margin-top: 30px;
+}
+
+.coffee-item h2 {
+  font-family: exo-bold;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.coffee-item p {
+  font-family: roboto-regular;
+  margin-top: 5px;
+}
+
+.coffee-item span {
+  font-family: roboto-regular;
+  font-size: 0.875rem;
+}
+
+/* Responsive layout - makes the two columns (filter & content) stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .search-wrapper,
+  .coffees-wrapper {
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .coffees-wrapper {
+    border-left: none;
+  }
+  .search-wrapper {
+    border-bottom: 1px solid #ccc;
+    position: relative;
+  }
+}

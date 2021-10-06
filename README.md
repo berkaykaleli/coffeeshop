@@ -6,8 +6,12 @@ After reading and analyzing the case spec, I focused on getting all the essentia
 
 ## Built with
 
-React - JS library\
-React DOM\
-React Hooks\
-Flexbox\
+React - JS library<br>
+React DOM<br>
+React Hooks<br>
+Flexbox<br>
 CSS Grid
+
+## Live demo
+
+**[Link](https://codesandbox.io/s/github/berkaykaleli/coffeeshop)**

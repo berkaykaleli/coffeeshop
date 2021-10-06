@@ -77,17 +77,6 @@ function App() {
                 </button>
                 <button
                   className={
-                    filterParam == "iced" ? "active categories" : "categories"
-                  }
-                  value="iced"
-                  onClick={(e) => {
-                    setFilterParam(e.target.value);
-                  }}
-                >
-                  Iced
-                </button>
-                <button
-                  className={
                     filterParam == "hot" ? "active categories" : "categories"
                   }
                   value="hot"
@@ -96,6 +85,17 @@ function App() {
                   }}
                 >
                   Hot
+                </button>
+                <button
+                  className={
+                    filterParam == "iced" ? "active categories" : "categories"
+                  }
+                  value="iced"
+                  onClick={(e) => {
+                    setFilterParam(e.target.value);
+                  }}
+                >
+                  Iced
                 </button>
               </div>
             </div>

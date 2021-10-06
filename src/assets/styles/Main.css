@@ -1,11 +1,13 @@
+/*Font files in public root folder 
+because Codesandbox app makes fonts accessible 
+only in "public" folder. */
 @font-face {
   font-family: "exo-bold";
-  src: local("exo-bold"), url(../fonts/exo-bold.woff2) format("woff2");
+  src: local("exo-bold"), url(./exo-bold.woff2) format("woff2");
 }
 @font-face {
   font-family: "roboto-regular";
-  src: local("roboto-regular"),
-    url(../fonts/roboto-regular.woff2) format("woff2");
+  src: local("roboto-regular"), url(./roboto-regular.woff2) format("woff2");
 }
 * {
   box-sizing: border-box;
@@ -41,7 +43,6 @@ a.categories {
   border: 1px solid #ccc;
   padding: 10px;
 }
-
 .search-wrapper button {
   border: none;
   background-color: transparent;
@@ -49,12 +50,15 @@ a.categories {
   display: block;
   width: 100%;
   text-align: left;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
-  line-height: 18px;
+  line-height: 24px;
+  font-family: roboto-regular;
+  font-size: 0.875rem;
 }
 button.active {
   color: cornflowerblue;
+  font-weight: bold;
 }
 
 .row {
@@ -63,6 +67,7 @@ button.active {
   flex-wrap: wrap;
   width: 100%;
 }
+
 /* FilterableCoffeeColumn */
 .search-wrapper {
   float: left;
@@ -105,7 +110,9 @@ button.active {
   font-size: 0.875rem;
 }
 
-/* Responsive layout - makes the two columns (filter & content) stack on top of each other instead of next to each other */
+/* Responsive layout - makes the two columns 
+(filter & content) stack on top of each other 
+instead of next to each other */
 @media screen and (max-width: 600px) {
   .search-wrapper,
   .coffees-wrapper {

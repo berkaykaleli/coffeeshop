@@ -23,10 +23,10 @@ body {
   height: 100%;
 }
 
-a.categories:first-child {
+button.categories:first-child {
   margin-top: 10px;
 }
-a.categories {
+button.categories {
   display: block;
   line-height: 24px;
   text-transform: capitalize;

@@ -2,11 +2,12 @@
 
 ## My process
 
-After reading and analyzing the case spec, I focused on getting all the essentials working, like parsing the JSON data, state management and hooks.
+After reading and analyzing the case spec, I focused on getting all the essentials working, like parsing the JSON data, useState, useEffect and hooks.
 
 ## Built with
 
-React - JS library
-React Hooks
-Flexbox
+React - JS library\
+React DOM\
+React Hooks\
+Flexbox\
 CSS Grid

@@ -1,10 +1,12 @@
-# coffeeshop
+# Coffeeshop
 
-My process
-After reading and analyzing the design spec, I focused on getting all the essentials working, like the API, routing, and parsing the JSON data. From there, I worked on file structure to make the components reusable and easier to maintain. And finally, there were several rounds of component coding, styling, and refactoring.
+## My process
 
-Built with
+After reading and analyzing the case spec, I focused on getting all the essentials working, like parsing the JSON data, state management and hooks.
+
+## Built with
+
 React - JS library
-Semantic HTML5 markup
+React Hooks
 Flexbox
 CSS Grid
